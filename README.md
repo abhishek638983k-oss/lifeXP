@@ -1,5 +1,4 @@
-# lifeXP
-LifeXP is a gamified web app where users complete challenges to earn XP, level up, and increase their rank. Built with JavaScript to practice logic, authentication flow, and state management. Frontend-only for now, backend planned.
+
 # LifeXP 🚀
 
 LifeXP is a gamified web application where users complete challenges to earn XP (experience points). As users gain XP, their profile level and rank increase — making self-improvement feel like a game.
