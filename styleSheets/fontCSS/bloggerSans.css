@@ -1,0 +1,71 @@
+/* stylesheets/indexCSS/fonts.css */
+
+/* Blogger Sans - Regular */
+@font-face {
+  font-family: 'bloggerSans';
+  src: url('../fonts/bloggerSans/Blogger_Sans.otf') 
+  format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* bloggerSans - Italic */
+@font-face {
+  font-family: 'bloggerSans';
+  src: url('../fonts/bloggerSans/Blogger_Sans-Italic.otf') 
+  format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+/* bloggerSans - Light */
+@font-face {
+  font-family: 'bloggerSans';
+  src: url('../fonts/bloggerSans/Blogger_Sans-Light.otf') 
+  format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* bloggerSans - Light Italic */
+@font-face {
+  font-family: 'bloggerSans';
+  src: url('../fonts/bloggerSans/Blogger_Sans-Light_Italic.otf') 
+  format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* bloggerSans - Medium */
+@font-face {
+  font-family: 'bloggerSans';
+  src: url('../fonts/bloggerSans/Blogger_Sans-Medium.otf') 
+  format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* bloggerSans - Medium Italic */
+@font-face {
+  font-family: 'bloggerSans';
+  src: url('../fonts/bloggerSans/Blogger_Sans-Medium_Italic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* bloggerSans - Bold */
+@font-face {
+  font-family: 'bloggerSans';
+  src: url('../fonts/bloggerSans/Blogger_Sans-Bold.otf') 
+  format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* bloggerSans - Bold Italic */
+@font-face {
+  font-family: 'bloggerSans';
+  src: url('../fonts/bloggerSans/Blogger_Sans-Bold_Italic.otf') 
+  format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
