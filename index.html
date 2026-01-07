@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="styleSheet" href="/styleSheets/indexCSS/base.css"/>
+  <link rel="stylesheet" href="/styleSheets/fontCSS/bloggerSans.css"/>
+  <link rel="stylesheet" href="/styleSheets/indexCSS/navebar.css"/>
+  <link rel="stylesheet" href="/styleSheets/indexCSS/main.css">
+  <link rel="styleSheet" href="/styleSheets/indexCSS/sidebar.css"/>
+  <link rel="stylesheet" href="/styleSheets/indexCSS/popup.css">
+  <title>lifeXP Home</title>
+</head>
+<body>
+  
+  <div class="hide popup-container">
+    <div class="popup">
+      <p class="popup-messege"> allert!! </p>
+      <div class="popup-buttons">
+        <button class="popup-button cancle">Cancle</button>
+        <button class="popup-button confirm">Confirm</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="sidebar-container">
+    <aside class="sidebar">
+      <div class="js-hide-sidebar-button hide-sidebar-button">
+       <img class="navebar-hover"src="./images/sidebarHide.png" alt="hide-sidebar">
+       <h1>Menu</h1>
+      </div>
+    </aside>
+    <div class="sidebar-blank-area">
+      
+    </div>
+  </div>
+
+  
+  
+  <nav class="navebar">
+    <div class="navebar-left">
+      <div class="navebar-containers sidebar-image-container navebar-hover">
+        <img class="js-sidebar-logo sidebar-logo"src="images/sidebar.png" alt="togle sidebar" />
+      </div>
+      
+      <div  class="lifeXp-logo-container navebar-containers navebar-hover">
+        <img class="lifeXP-logo" src="/images/lifeXP.jpg" alt="LIFE XP" />
+      </div>
+      
+    </div>
+    <div class="navebar-right">
+      <div class="navebar-containers xpbar-container">
+        <div class="xp-bar">
+          <div class="xp-progress">
+          </div>
+          <p class="xp-count">3055/4000</p>
+        </div>
+      </div>
+      
+      <div class="navebar-containers level-container">
+        <div class="level">
+          Lv.<span class="level-number">0</span>
+        </div>
+      </div>
+      
+      <div class="navebar-containers profile-photo-container navebar-hover">
+        <img class="profile-photo"src="images/profile.png" alt="profile"/>
+      </div>
+    </div>
+  </nav>
+  
+  <main class="main-container">
+    <div class="chalenge-box-container">
+      <div class="default-image-container">
+        <img class="default-image"src="/images/lifeXP-2.jpg" alt="lifeXP logo" />
+      </div>
+      <div class=" hide chalenge-box">
+          Do coding for 2 hous straight.
+      </div>
+      <div class=" hide chalenge-box-buttons js-accep-reject-container">
+        <button class="buttons chalenge-box-button accept-button">Accept</button>
+        <button class="buttons chalenge-box-button reject-button">Reject</button>
+      </div>
+      <div class="completed-button-container hide">
+        <button class="buttons completed-button">Completed</button>
+      </div>
+      <div class="new-chalenge-button-conainner">
+        <button class="buttons new-chalenge-button">New Chalenge</button>
+      </div>
+      
+    </div>
+  </main>
+  
+  <script type="module" src="./scripts/main.js">
+  </script>
+</body>
+</html>
