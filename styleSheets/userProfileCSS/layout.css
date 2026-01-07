@@ -1,0 +1,25 @@
+body{
+  display:grid;
+  grid-template: 2 1;
+}
+.user-profile-container{
+  min-width: 300px;
+  height: 100vh;
+  border: 2px solid black;
+}
+.user-info-container{
+
+}
+@media (max-width: 500px){
+  body{
+    grid-template: 1 2;
+  }
+	.user-profile-container{
+		height: auto;
+		width: 100vw;
+	}
+	.user-info-container{
+		height: auto;
+		width: 100vw;
+	}
+}
