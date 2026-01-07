@@ -1,0 +1,92 @@
+.navebar{
+  background-color: #edede9;
+	position: sticky;
+	top: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 4rem;
+	width: 100vw;
+	padding: 0 0 0 10px;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.15);
+}
+.navebar-left,.navebar-right{
+	height: 100%;
+	width: auto;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+.navebar-containers {
+	padding: 0 20px 0 5px;
+	height: 100%;
+	width: fit-content;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.sidebar-image-container{
+}
+.profile-photo{
+	height: 50%;
+	width: auto;
+}
+.sidebar-logo{
+	height: 55%;
+	width: auto;
+}
+.lifeXP-logo{
+  height: 130%;
+  width: auto;
+}
+.navebar-hover:active{
+	filter: brightness(90%);
+}
+.navebar-right{
+	display: flex;
+	flex-grow: 1;
+	justify-content: right;
+}
+.xpbar-container{
+	padding: 0;
+	max-width: 350px;
+	flex-grow: 1;
+	display: relative;
+	margin-right: 5px;
+}
+.xp-bar{
+	background-color: white;
+	text-align: center;
+	height: 20px;
+	width: 100%;
+	position: relative;
+	border-radius: 20px;
+	color: black;
+}
+.xp-progress{
+	background-color: rgba(100,230,100,1);
+	position: absolute;
+	height: 100%;
+	width: 60%;
+	border-radius: 20px;
+}
+.xp-count{
+	position: relative;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	z-index: 10; 
+	opacity: 0.7;
+}
+.level,.xpbar-container{
+	cursor: default;
+}
+@media (max-width: 400px){
+	.xpbar-container{
+		display: none;
+	}
+	.sidebar-image-container{
+		display: none;
+	}
+}

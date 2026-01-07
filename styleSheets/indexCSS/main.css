@@ -1,0 +1,138 @@
+@import url("./base.css");
+
+img {
+	user-drag: none;
+	-webkit-user-drag: none;
+	user-select: none;
+	pointer-events: auto;
+}
+
+.main-container {
+	width: 100%;
+	min-height: 300px;
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+}
+
+.chalenge-box-container {
+	border-radius: 3px;
+	height: auto;
+	width: 100%;
+	max-width: 700px;
+	align-self: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: white;
+}
+
+.chalenge-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	min-height: 200px;
+	text-align: center;
+	cursor: default;
+}
+
+.chalenge-box-buttons {
+	height: auto;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.buttons {
+	flex-grow: 1;
+	height: 40px;
+	margin: 0px 20px 30px;
+	border-radius: 3px;
+	border: none;
+	color: #f4f4f4;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.chalenge-box-button {
+	max-width: 200px;
+}
+
+.completed-button-container,
+.new-chalenge-button-conainner {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.completed-button,
+.new-chalenge-button {
+	width: 100%;
+	max-width: 500px;
+	background-color: var(--green);
+}
+
+.new-chalenge-button:hover {
+	filter: brightness(90%);
+	color: white;
+}
+
+.new-chalenge-button:active {
+	filter: brightness(80%);
+	color: white;
+}
+
+.accept-button {
+	background-color: var(--green);
+}
+
+.reject-button {
+	background-color: var(--red);
+}
+
+.buttons:hover {
+	filter: brightness(90%);
+	color: white;
+}
+
+.buttons:active {
+	filter: brightness(80%);
+	color: white;
+}
+
+.completed-button:hover {
+	filter: brightness(90%);
+	color: white;
+}
+
+.completed-button:active {
+	filter: brightness(80%);
+	color: white;
+}
+
+@media (min-height:800px) {
+	.main-container {
+		padding-top: 200px;
+	}
+	
+	.chalenge-box {
+		margin-bottom: 50px;
+	}
+}
+
+.default-image-container {
+	width: 80%;
+	height: auto;
+	overflow: hidden;
+}
+
+.default-image {
+	height: auto;
+	width: 100%;
+	object-fit: cover;
+}

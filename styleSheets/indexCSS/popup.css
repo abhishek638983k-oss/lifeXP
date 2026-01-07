@@ -1,0 +1,69 @@
+
+.popup-container{
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(00, 00, 00, 0.5);
+	z-index: 15;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.popup{
+	cursor: default;
+	font-weight: bold;
+	width: 50%;
+	min-height: 30%;
+	background-color: white;
+	border-radius: 3px;
+	padding: 20px 10px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	text-align: center;
+}
+@media (min-height: 800px) {
+	.popup{
+		min-height: 20%;
+	}
+}
+@media (min-width: 800px) {
+	.popup{
+		width: 40%;
+	}
+}
+.popup-messege{
+	width: 80%;
+	margin-top: 5%;
+	font-size: 18px;
+	height: 100%;
+}
+
+.popup-buttons{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+.popup-button {
+	font-size: 16px;
+	height: 30px;
+	margin: none;
+	border: none;
+	color: #f4f4f4;
+	padding: 5px;
+	border-radius: 3px;
+	font-weight: bold;
+	cursor: pointer;
+	width: 45%;
+	min-width: 60px;
+}
+.cancle {
+	background-color: var(--blue);
+}
+
+.confirm {
+	background-color: var(--green);
+}

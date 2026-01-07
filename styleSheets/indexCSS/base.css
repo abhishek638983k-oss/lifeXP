@@ -1,0 +1,23 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #edede9;
+	font-family: 'bloggerSans';
+	
+}
+:root{
+	--red:#f47c7c;
+	--green:#a1de93;
+	--blue:#70a1d7;
+	--yellow:#f7f48b;
+	
+}
+.disable-scroll{
+	overflow: hidden;
+}
+.hide{
+	display: none!important;
+}
